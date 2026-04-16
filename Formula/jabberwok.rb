@@ -1,10 +1,10 @@
 class Jabberwok < Formula
   desc "A macOS speech-to-text service that transcribes your voice wherever your cursor is"
   homepage "https://github.com/yuzow/jabberwok"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/yuzow/jabberwok/releases/download/v0.1.0/jabberwok-aarch64-apple-darwin.tar.gz"
-    sha256 "9a1aa818095675f937d7de960570443bd510dad6b87d5c3917b2aab7d3447be3"
+    url "https://github.com/yuzow/jabberwok/releases/download/v0.1.1/jabberwok-aarch64-apple-darwin.tar.gz"
+    sha256 "985ea161a282772da1761bf513bfa0e7858ea7e943d59cabd4ac5e6d14701e99"
   end
   license "MIT"
 
